@@ -1,12 +1,43 @@
-# Elysia with Bun runtime
+# BETH Stack
 
-## Getting Started
-To get started with this template, simply paste this command into your terminal:
-```bash
-bun create elysia ./elysia-example
+![beth](beth-stack.png)
+
+## Getting started
+
+Create .env file
+
+```sh
+touch .env
 ```
 
-## Development
+```sh
+DB_URL=
+DB_TOKEN=
+```
+
+## Create Turso db
+
+```sh
+turso db create bunshortly
+```
+
+Get the db url
+
+```sh
+turso db show bunshortly
+```
+
+Get the db token
+
+```sh
+turso db tokens create bunshortly
+```
+
+
+Update the ```.env``` file with the token and url from the above commands
+
+
+## Run the application
 To start the development server run:
 ```bash
 bun run dev
