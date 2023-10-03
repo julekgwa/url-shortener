@@ -1,3 +1,5 @@
+Article: https://quicktuts.online/url-shortener
+
 # BETH Stack
 
 ![beth](beth-stack.png)
